@@ -1,0 +1,51 @@
+/* asterisk * means select all elements */
+/* sans-serif or serif is a fallback font
+if the selected font is not loaded, it will search a similar font */
+* {
+  font-family: "Roboto", sans-serif;
+}
+h1,
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+img {
+  height: 250px;
+  width: 250px;
+}
+
+#landing {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#gallery {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0%;
+}
+
+h2 {
+  color: #007bff;
+}
+
+.tools {
+  border: 5px solid #007bff;
+  padding: 25px;
+  margin: 20px;
+  height: 200px;
+  width: 75%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
